@@ -56,6 +56,7 @@ export function AtelierMassageBebe(){
                         de quoi jouer, de quoi le faire goûter... tout ce dont vous pensez que votre bébé aura besoin, sans aucune restriction.
                     </li>
                 </ul>
+                <button onClick={()=>{alert("Inscription enregistrée")}}>Je m'inscris !</button>
             </div>
         </div>
     );
