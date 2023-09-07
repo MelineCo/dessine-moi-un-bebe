@@ -8,11 +8,12 @@ import { Equipe } from './components/Equipe';
 import { Ateliers } from './components/Ateliers';
 import { Bibliotheque } from './components/Bibliotheque';
 import { Evenements } from './components/Evenements';
-import { Livre } from './components/Livre';
+import { LivresAllaitement } from './components/categories-livre/LivresAllaitement';
+import { LivresMassage } from './components/categories-livre/LivresMassage';
+import { LivresEmotions } from './components/categories-livre/LivresEmotions';
 
 // Layouts
 import { RootLayout } from './layouts/RootLayout';
-
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={ <RootLayout /> }>
@@ -20,8 +21,9 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='evenements' element={ <Evenements/> }/>
     <Route path='ateliers' element={ <Ateliers/> }/>
     <Route path='bibliotheque' element={ <Bibliotheque /> }>
-      <Route path='allaitement' element={ <Livre/> }/>
-      <Route path='massage' element={ <Ateliers/> }/>
+      <Route path='allaitement' element={ <LivresAllaitement /> }/>
+      <Route path='massage' element={ <LivresMassage /> }/>
+      <Route path='emotions' element={ <LivresEmotions /> }/>
     </Route>
     <Route path='equipe' element={ <Equipe /> }/>
   </Route>

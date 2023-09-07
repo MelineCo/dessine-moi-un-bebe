@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.photo-equipe {
+  width: 100px;
+  border-radius: 50%;
+}
+
+header {
+  background-image: url("./images/Dessine-moi-des-bebes-2.png");
+  height: 170px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
