@@ -1,9 +1,11 @@
 import { NavLink, Outlet } from "react-router-dom";
+import illustration from "../images/femme-lisant-un-livre.png";
 
 export function Bibliotheque(props){
     return (
         <div>
             <h1>Bibliotheque</h1>
+            <img className="illustration-bibli" src={illustration} alt="Femme lisant un livre sur la maternité"></img>
             <nav>
                 <NavLink to="allaitement">Allaitement</NavLink>
                 <NavLink to="massage">Massage</NavLink>

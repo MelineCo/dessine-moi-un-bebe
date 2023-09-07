@@ -11,9 +11,11 @@ import { Evenements } from './components/Evenements';
 import { LivresAllaitement } from './components/categories-livre/LivresAllaitement';
 import { LivresMassage } from './components/categories-livre/LivresMassage';
 import { LivresEmotions } from './components/categories-livre/LivresEmotions';
+import { NotFound } from './components/NotFound';
 
 // Layouts
 import { RootLayout } from './layouts/RootLayout';
+
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={ <RootLayout /> }>
@@ -26,6 +28,7 @@ const router = createBrowserRouter(createRoutesFromElements(
       <Route path='emotions' element={ <LivresEmotions /> }/>
     </Route>
     <Route path='equipe' element={ <Equipe /> }/>
+    <Route path='*' element={ <NotFound /> }/>
   </Route>
 ));
 

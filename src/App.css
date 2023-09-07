@@ -50,3 +50,8 @@ header {
   background-size: cover;
   position: relative;
 }
+
+/* Bibliothèque */
+.illustration-bibli {
+  height: 200px;
+}
