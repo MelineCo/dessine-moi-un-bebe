@@ -9,7 +9,8 @@ export function AtelierEveil(){
                     et l'enfant favorisant le lien d'attachement et la relation parent-enfant.
                     Un agréable moment à passer ensemble plus qu'un apprentissage d'une activité.
                     La présence du parent rassure l'enfant et l'aide à intégrer le groupe (au bout d'un certain temps)
-                    à aller vers les autres en toute confiance et acquérir plus d'autonomie.</p>
+                    à aller vers les autres en toute confiance et acquérir plus d'autonomie.
+                </p>
                 <p>
                     On s'amuse à se transformer en montagne très haute ou en arbre majestueux,
                     la tête dans les nuages mais les pieds bien sur terre, on coupe son bois dans la forêt comme un bûcheron avec sa grande hache,
