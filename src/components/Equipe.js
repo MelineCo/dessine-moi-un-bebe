@@ -3,6 +3,7 @@ import { MembreEquipe } from "./MembreEquipe";
 import photoLaetitia from "../images/Laetitia.jpg";
 import photoAurore from "../images/Aurore.jpg";
 import photoSophie from "../images/Sophie.jpeg";
+import lotus from "../images/lotus.png";
 
 export function Equipe(){
     const equipe = [
@@ -11,7 +12,7 @@ export function Equipe(){
             prenom: "Laetitia",
             role: "Présidente",
             photo: photoLaetitia,
-            presentation: "Bientôt 9 ans, c'est mon âge de maman. Et me voilà découvrant et sillonnant ce nouvel univers. Un univers où l'on est femme, maman, amie, compagne, confidente... J'aime les rencontres et le partage, les arbres et le Chili. J'aime aussi les jeux et le yoga, les livres et le soleil, le muscat et le chocolat. Grâce à Dessine-moi un bébé, j'ai appris à porter et à masser mon bébé, j'ai rencontré des mamans lors des p'tits dej du mardi... et comme elle a une belle aura cette association, j'ai eu envie d'y mettre un pied, pour davantage de rencontres, de beaux projets, et pour tisser de jolis liens."
+            presentation: "Bientôt 9 ans, c'est mon âge de maman. Et me voilà découvrant et sillonnant ce nouvel univers. Un univers où l'on est femme, maman, amie, compagne, confidente... "
         },
         {
             id: 2,
@@ -25,15 +26,16 @@ export function Equipe(){
             id: 3,
             prenom: "Sophie",
             photo: photoSophie,
-            role: "Créatrice de l'association, animatrice des ateliers Faber & Mazlish & gérante de la bibliothèque",
-            presentation: "Maman de grands, doula."
+            role: "Fondatrice",
+            presentation: "Maman de grands, doula. Créatrice de l'association, animatrice des ateliers Faber & Mazlish & gérante de la bibliothèque"
       
         },
         {
             id: 4,
-            prenom: "Laetitia, dit 'Laetish'",
-            role: "Monitrice de portage",
-            presentation: ""
+            prenom: "Laetitia'",
+            photo: lotus,
+            role: "Monitrice de portage.",
+            presentation: "Surnom : 'Laetish'. J'aime les rencontres et le partage, les arbres et le Chili. J'aime aussi les jeux et le yoga, les livres et le soleil, le muscat et le chocolat. Grâce à Dessine-moi un bébé, j'ai appris à porter et à masser mon bébé, j'ai rencontré des mamans lors des p'tits dej du mardi... et comme elle a une belle aura cette association, j'ai eu envie d'y mettre un pied, pour davantage de rencontres, de beaux projets, et pour tisser de jolis liens."
         }
       ]
     return (

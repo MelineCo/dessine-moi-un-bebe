@@ -56,12 +56,16 @@
 /* Ateliers */
 
 .ateliersContainer{
-  width: 40%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  
 }
 
 .detailsAtelier{
-  padding: 20px;
-  margin: 30px;
+  padding : 20px;
+  margin: 20px;
   border-radius: 10px;
   background-color: rgba(173,216,230, 0.3);
 }
@@ -71,5 +75,28 @@
 }
 
 .informations {
+  text-align: left;
+}
+
+/* Equipe */
+
+.membre-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.membre-equipe {
+  border-radius: 10px;
+  background-color: rgba(173,216,230, 0.3);
+}
+
+.membre-equipe img {
+  margin: 10px 10px;
+}
+
+.membre-equipe p {
+  padding: 20px;
   text-align: left;
 }
