@@ -1,15 +1,15 @@
 import { useLoaderData, Link } from 'react-router-dom'
 
-export function LivresGrossesse(){
+export function Books(){
     const books = useLoaderData()
     return (
         <div>
-            <h3>Livres sur la grossesse</h3>
+            <h3>Livres nouveau test</h3>
             <p>Don't push!</p>
 
-            <div className="livres">
+            <div className="book">
                 {books?.map(book => (
-                    <Link to="/" key={book.id} >
+                    <Link to={book.id.toString()} key={book.id} >
                         <p>{book.titre}</p>
                         <p>{book.theme}</p>
                     </Link>

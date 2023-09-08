@@ -6,28 +6,28 @@ import { createBrowserRouter, createRoutesFromElements, Outlet, Route, RouterPro
 import { Home } from './components/Home';
 import { Equipe } from './components/Equipe';
 import { Ateliers } from './components/Ateliers';
-import { Bibliotheque } from './components/Bibliotheque';
-import { Evenements } from './components/Evenements';
-import { LivresAllaitement } from './components/categories-livre/LivresAllaitement';
-import { LivresMassage } from './components/categories-livre/LivresMassage';
-import { LivresEmotions } from './components/categories-livre/LivresEmotions';
-import { booksLoader, LivresGrossesse } from './components/categories-livre/LivresGrossesse';
+import { booksLoader, Books } from './components/categories-livre/Books';
 import { NotFound } from './components/NotFound';
+import BookDetails, { bookDetailsLoader } from './components/categories-livre/BookDetails';
 
 // Layouts
 import { RootLayout } from './layouts/RootLayout';
-
+import BooksLayout from './layouts/BooksLayout';
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={ <RootLayout /> }>
     <Route path='home' element={ <Home/> }/>
-    <Route path='evenements' element={ <Evenements/> }/>
     <Route path='ateliers' element={ <Ateliers/> }/>
-    <Route path='bibliotheque' element={ <Bibliotheque /> }>
+    <Route path='livres' element={ <BooksLayout /> }>
       <Route
         index
-        element= { <LivresGrossesse /> }
+        element= { <Books /> }
         loader= {booksLoader}
+      />
+      <Route
+        path=":id"
+        element= { <BookDetails /> }
+        loader= {bookDetailsLoader}
       />
     </Route>
     <Route path='equipe' element={ <Equipe /> }/>
