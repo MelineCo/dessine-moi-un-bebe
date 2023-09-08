@@ -42,14 +42,7 @@
   border-radius: 50%;
 }
 
-header {
-  background-image: url("./images/Dessine-moi-des-bebes-2.png");
-  height: 170px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
+
 
 /* Bibliothèque */
 .illustration-bibli {
@@ -58,4 +51,25 @@ header {
 
 .book p {
   margin : 0;
+}
+
+/* Ateliers */
+
+.ateliersContainer{
+  width: 40%;
+}
+
+.detailsAtelier{
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+  background-color: rgba(173,216,230, 0.3);
+}
+
+.descriptionAtelier {
+  text-align: left;
+}
+
+.informations {
+  text-align: left;
 }

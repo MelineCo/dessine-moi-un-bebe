@@ -1,6 +1,6 @@
 import { useLoaderData, Link } from 'react-router-dom'
 
-export function Books(){
+export default function Books(){
     const books = useLoaderData()
     return (
         <div>

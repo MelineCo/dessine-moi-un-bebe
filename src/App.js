@@ -6,9 +6,9 @@ import { createBrowserRouter, createRoutesFromElements, Outlet, Route, RouterPro
 import { Home } from './components/Home';
 import { Equipe } from './components/Equipe';
 import { Ateliers } from './components/Ateliers';
-import { booksLoader, Books } from './components/categories-livre/Books';
+import Books, { booksLoader } from './components/categories-livre/Books';
 import { NotFound } from './components/NotFound';
-import BookDetails, { bookDetailsLoader } from './components/categories-livre/BookDetails';
+import BookDetails, { bookdetailsLoader } from './components/categories-livre/BookDetails';
 
 // Layouts
 import { RootLayout } from './layouts/RootLayout';
@@ -18,7 +18,7 @@ const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={ <RootLayout /> }>
     <Route path='home' element={ <Home/> }/>
     <Route path='ateliers' element={ <Ateliers/> }/>
-    <Route path='livres' element={ <BooksLayout /> }>
+    <Route path='bibliotheque' element={ <BooksLayout /> }>
       <Route
         index
         element= { <Books /> }
@@ -27,7 +27,7 @@ const router = createBrowserRouter(createRoutesFromElements(
       <Route
         path=":id"
         element= { <BookDetails /> }
-        loader= {bookDetailsLoader}
+        loader= {bookdetailsLoader}
       />
     </Route>
     <Route path='equipe' element={ <Equipe /> }/>

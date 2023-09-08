@@ -1,7 +1,7 @@
 export function AtelierCommunicationFamiliale() {
     return (
-        <div>
-            <h1>Atelier Communication familiale</h1>
+        <div className="detailsAtelier">
+            <h3>Atelier Communication familiale</h3>
 
             <div className="descriptionAtelier">
                 <p>
@@ -48,10 +48,7 @@ export function AtelierCommunicationFamiliale() {
                 <p>
                     Tarifs : 85 € (120€ pour un couple) + Adhésion à l'association
                 </p>
-                <p>
-                    Le nombre de place est limité, les inscriptions se font dans l'ordre d'arrivée des bulletins.
-                </p>
-                <button>Je m'inscris !</button>
+                <button onClick={()=>{alert("Inscription enregistrée")}}>Je m'inscris !</button>
             </div>
         </div>
     );

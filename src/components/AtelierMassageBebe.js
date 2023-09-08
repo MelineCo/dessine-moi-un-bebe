@@ -1,7 +1,7 @@
 export function AtelierMassageBebe(){
     return (
-        <div>
-            <h1>Atelier Massage Bébé</h1>
+        <div className="detailsAtelier">
+            <h3>Atelier Massage Bébé</h3>
 
             <div className="descriptionAtelier">
                 <p>

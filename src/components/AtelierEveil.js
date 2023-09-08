@@ -1,7 +1,7 @@
 export function AtelierEveil(){
     return (
-        <div>
-            <h1>Atelier Éveil en famille</h1>
+        <div className="detailsAtelier">
+            <h3>Atelier Éveil en famille</h3>
 
             <div className="descriptionAtelier">
                 <p>
@@ -46,6 +46,7 @@ export function AtelierEveil(){
                 <p>
                     Consulter l'agenda pour les dates.
                 </p>
+                <button onClick={()=>{alert("Inscription enregistrée")}}>Je m'inscris !</button>
             </div>
         </div>
     );

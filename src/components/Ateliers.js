@@ -5,7 +5,10 @@ import { AtelierMassageBebe } from "./AtelierMassageBebe";
 export function Ateliers(){
     return (
         <div>
-            <h1>Ateliers</h1>
+            <h2>Ateliers</h2>
+            <p>
+                Le nombre de place est limité. Les inscriptions se font dans l'ordre d'arrivée des bulletins.
+            </p>
             <div className="ateliersContainer">
                 <AtelierCommunicationFamiliale />
                 <AtelierEveil />
