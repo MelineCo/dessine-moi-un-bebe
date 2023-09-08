@@ -1,0 +1,84 @@
+{
+    "livres": [
+        {
+            "id":1,
+            "theme": "grossesse",
+            "titre": "Vivre son accouchement et sa grossesse",
+            "description": "Conçu comme un guide de voyage, ce livre accompagne la future maman et son entourage durant la période de la grossesse et de la naissance."
+        },
+        {
+            "id": 2,
+            "theme": "grossesse",
+            "titre": "Attendre bébé... autrement",
+            "description": "Pour vivre une grossesse plus naturelle : l'accompagnement global par une sage-femme, le yoga prénatal, l'haptonomie, les doulas.."
+        },
+        {
+            "id": 3,
+            "theme": "grossesse",
+            "titre": "Pour une naissance sans violence",
+            "description": "Ancien interne et chef de clinique des Hôpitaux de Paris, Frédéric Leboyer se consacre à l'écriture depuis la publication de Pour une naissance sans violence."
+        }
+    ],
+    "equipe": [
+        {
+            "id": 1,
+            "prenom": "Laetitia",
+            "role": "Présidente",
+            "presentation": "Bientôt 9 ans, c'est mon âge de maman. Et me voilà découvrant et sillonnant ce nouvel univers. Un univers où l'on est femme, maman, amie, compagne, confidente... J'aime les rencontres et le partage, les arbres et le Chili. J'aime aussi les jeux et le yoga, les livres et le soleil, le muscat et le chocolat. Grâce à Dessine-moi un bébé, j'ai appris à porter et à masser mon bébé, j'ai rencontré des mamans lors des p'tits dej du mardi... et comme elle a une belle aura cette association, j'ai eu envie d'y mettre un pied, pour davantage de rencontres, de beaux projets, et pour tisser de jolis liens."
+        },
+        {
+            "id": 2,
+            "prenom": "Aurore",
+            "role": "Trésorière",
+            "presentation": "Maman de trois enfants, je suis passionnée par ce nouveau rôle ! Grâce à cette belle asso je me suis mise au maternage! Portage en écharpe, couches lavables, pédagogies alternatives, accouchement respecté... Par ma présence dans l'asso je souhaite aider à véhiculer ces valeurs et continuer à mettre en place avec mes équipières de belles activitées."
+      
+        },
+        {
+            "id": 3,
+            "prenom": "Sophie",
+            "role": "Créatrice de l'association, animatrice des ateliers Faber & Mazlish & gérante de la bibliothèque",
+            "presentation": "Maman de grands, doula."
+      
+        },
+        {
+            "id": 4,
+            "prenom": "Laetitia, dit 'Laetish'",
+            "role": "Monitrice de portage",
+            "presentation": ""
+        }
+    ],
+    "ateliers": [
+        {
+            "id": 1,
+            "atelier": "Massage bébé",
+            "places": 10,
+            "lieu": "Ventabren",
+            "date": "10/08/2023",
+            "description": "lorem ipsum dolrgehkiuii"
+        },
+        {
+            "id": 2,
+            "atelier": "Communication non violente",
+            "places": 10,
+            "lieu": "Eguilles",
+            "date": "18/09/2023",
+            "description": "lorem ipsum dolrgehkiuii"
+        },
+        {
+            "id": 3,
+            "atelier": "Baby gym",
+            "places": 30,
+            "lieu": "Gymnase de Ventabren",
+            "date": "Tous les 1er vendredi du mois",
+            "description": "lorem ipsum dolrgehkiuii"
+        },
+        {
+            "id": 4,
+            "atelier": "Yoga maman/bébé",
+            "places": 7,
+            "lieu": "Lambesc",
+            "date": "Tous les mardis à 10h",
+            "description": "lorem ipsum dolrgehkiuii"
+        }
+    ] 
+}

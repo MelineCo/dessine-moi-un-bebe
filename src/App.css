@@ -55,3 +55,7 @@ header {
 .illustration-bibli {
   height: 200px;
 }
+
+.livres p {
+  margin : 0;
+}

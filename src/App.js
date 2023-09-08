@@ -11,6 +11,7 @@ import { Evenements } from './components/Evenements';
 import { LivresAllaitement } from './components/categories-livre/LivresAllaitement';
 import { LivresMassage } from './components/categories-livre/LivresMassage';
 import { LivresEmotions } from './components/categories-livre/LivresEmotions';
+import { booksLoader, LivresGrossesse } from './components/categories-livre/LivresGrossesse';
 import { NotFound } from './components/NotFound';
 
 // Layouts
@@ -23,9 +24,11 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='evenements' element={ <Evenements/> }/>
     <Route path='ateliers' element={ <Ateliers/> }/>
     <Route path='bibliotheque' element={ <Bibliotheque /> }>
-      <Route path='allaitement' element={ <LivresAllaitement /> }/>
-      <Route path='massage' element={ <LivresMassage /> }/>
-      <Route path='emotions' element={ <LivresEmotions /> }/>
+      <Route
+        index
+        element= { <LivresGrossesse /> }
+        loader= {booksLoader}
+      />
     </Route>
     <Route path='equipe' element={ <Equipe /> }/>
     <Route path='*' element={ <NotFound /> }/>

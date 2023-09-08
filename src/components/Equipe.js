@@ -12,7 +12,6 @@ export function Equipe(){
             role: "Présidente",
             photo: photoLaetitia,
             presentation: "Bientôt 9 ans, c'est mon âge de maman. Et me voilà découvrant et sillonnant ce nouvel univers. Un univers où l'on est femme, maman, amie, compagne, confidente... J'aime les rencontres et le partage, les arbres et le Chili. J'aime aussi les jeux et le yoga, les livres et le soleil, le muscat et le chocolat. Grâce à Dessine-moi un bébé, j'ai appris à porter et à masser mon bébé, j'ai rencontré des mamans lors des p'tits dej du mardi... et comme elle a une belle aura cette association, j'ai eu envie d'y mettre un pied, pour davantage de rencontres, de beaux projets, et pour tisser de jolis liens."
-      
         },
         {
             id: 2,

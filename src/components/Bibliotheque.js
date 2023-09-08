@@ -7,9 +7,7 @@ export function Bibliotheque(props){
             <h1>Bibliotheque</h1>
             <img className="illustration-bibli" src={illustration} alt="Femme lisant un livre sur la maternité"></img>
             <nav>
-                <NavLink to="allaitement">Allaitement</NavLink>
-                <NavLink to="massage">Massage</NavLink>
-                <NavLink to="emotions">Émotions</NavLink>
+                <NavLink to="grossesse">Grossesse</NavLink>
             </nav>
             <p>
                 Pour emprunter un livre (ou des livres), il convient d'etre adhérent à jour de sa cotisation
