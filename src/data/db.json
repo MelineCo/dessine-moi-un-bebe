@@ -10,13 +10,36 @@
             "id": 2,
             "theme": "grossesse",
             "titre": "Attendre bébé... autrement",
+            "couverture": "https://m.media-amazon.com/images/I/61eeGgy0SuL.jpg",
             "description": "Pour vivre une grossesse plus naturelle : l'accompagnement global par une sage-femme, le yoga prénatal, l'haptonomie, les doulas.."
         },
         {
             "id": 3,
             "theme": "grossesse",
             "titre": "Pour une naissance sans violence",
+            "couverture": "https://m.media-amazon.com/images/I/71te2hpTKML.jpg",
             "description": "Ancien interne et chef de clinique des Hôpitaux de Paris, Frédéric Leboyer se consacre à l'écriture depuis la publication de Pour une naissance sans violence."
+        },
+        {
+            "id": 4,
+            "theme": "Relaxation",
+            "titre": "Luna Yoga",
+            "couverture": "https://m.media-amazon.com/images/I/41jPvFFzf3L.jpg",
+            "description": "Troubles du cycle, syndrome prémenstruel, règles douloureuses, obstacles à la fécondité, relâchement des muscles du bassin après un accouchement… et bien d’autres problèmes encore peuvent être surmontés grâce à la pratique du Luna-Yoga. Le Luna-Yoga renforce le pouvoir d’autoguérison, stimule la joie de vivre et fait souvent apparaître des énergies insoupçonnées. Il peut aussi compléter du manière idéale un traitement médical. Ce n’est ni un remède, ni une technique. Il n’agit que lorsque le corps, l’esprit et l’âme aspirent à un changement. Ainsi parle l’auteur: «Il me plaît d’appeler le Luna-Yoga un vademecum ce qui veut dire littéralement «viens avec moi». Luna-Yoga nous accompagne sur le chemin de nos mondes intérieurs. En ce faisant, nous découvrons peut-être notre maître intérieur, la voix de l’intuition, qui est un guide sage."
+        },
+        {
+            "id": 5,
+            "theme": "Relaxation",
+            "titre": "Le yoga des petits pour bien dormir",
+            "couverture": "https://m.media-amazon.com/images/I/819i7RtCsrL.jpg", 
+            "description": "Petit yogi net la tête à l'envers conne une chauve-souris... Petit yogi cligne des yeux comme un hibou... Quoi de plus relaxant qu'une séance de yoga avant d'aller au lit ? Voici 10 postures de yoga très faciles et très amusantes pour se préparer au sommeil. Les enfants seront ravis d'imiter les animaux nocturnes avec Petit yogi en s'inspirant des adorables dessins. Des conseils simples et judicieux, des photos et des explications précises permettront à l'adulte d'accompagner en douceur ce moment privilégié"
+        },
+        {   
+            "id": 6,
+            "theme": "Relaxation",
+            "titre": "L'enfant et la relaxation'",
+            "couverture": "https://www.souffledor.fr/2260-single_prod_2x/enfant-et-la-relaxation-l-4e-edition.jpg", 
+            "description": "L'enfant et la relaxation S'il te plaît, apprivoise-moi ! Chaque enfant est riche d'un monde intérieur que nous méconnaissons souvent, pris que nous sommes dans notre hâte. L'enfant lui-même est souvent perplexe et partagé entre son monde et celui des adultes ; il cherche des repères et son identité. Geneviève Manent nous propose de rencontrer l'enfant pour le révéler à lui-même grâce à la relaxation. À l'instar du renard et du Petit Prince, la relation entre l'adulte et l'enfant se tissera de patience, de confiance, de découverte mutuelle, au quotidien et révèlera des trésors. Ainsi, l'enfant pourra s'épanouir dans sa dimension globale et trouver l'harmonie tout au long de sa croissance ; il saura utiliser ses cinq sens, habitera intimement et avec bonheur son corps, se reliera plus facilement aux autres et à son environnement. En favorisant une connaissance de lui enracinée dans le corps, la relaxation l'aidera à avancer avec plus de conscience et de sécurité. Il pourra alors entrer sereinement dans le monde adulte. Au fil des chapitres vous sont proposés des réflexions, des relaxations à expérimenter, des éléments méthodologiques, des conseils techniques et des exercices pratiques, ainsi qu'une bibliographie adaptée. De nouvelles relaxations complètent cette édition revue et augmentée."
         }
     ],
     "equipe": [

@@ -1,5 +1,6 @@
 import { useLoaderData, Link } from 'react-router-dom'
 
+
 export default function Books(){
     const books = useLoaderData()
     return (
@@ -9,7 +10,7 @@ export default function Books(){
             <div className="books">
                 {books?.map(book => (
                     <Link to={book.id.toString()} key={book.id} >
-                        <p>{book.titre}</p>
+                        <img style={{height: 250, margin: 10}} src={book.couverture} ></img>
                     </Link>
                 ))}
 		    </div>
