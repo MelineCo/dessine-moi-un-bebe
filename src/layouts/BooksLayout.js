@@ -1,5 +1,4 @@
-import { Outlet } from "react-router-dom";
-import illustration from "../images/femme-lisant-un-livre.png";
+import { Outlet } from "react-router-dom"
 
 export default function BooksLayout(props){
     return (

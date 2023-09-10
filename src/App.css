@@ -42,7 +42,9 @@
   border-radius: 50%;
 }
 
-
+body {
+  /*background-color: rgb(167,201,254);*/
+}
 
 /* Bibliothèque */
 .illustration-bibli {
@@ -60,25 +62,26 @@
   padding : 20px;
   margin: 20px;
   border-radius: 10px;
-  background-color: rgba(173,216,230, 0.3);
+  background-color: rgb(255,236,202);
   width: 25%;
 }
 
 /* Ateliers */
 
 .ateliersContainer{
-  width: 90%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .detailsAtelier{
   padding : 20px;
   margin: 20px;
   border-radius: 10px;
-  background-color: rgba(173,216,230, 0.3);
+  background-color: rgb(255,227,234);
+  /*background-color: rgba(232,241,255);*/
 }
 
 .descriptionAtelier {
@@ -100,7 +103,7 @@
 
 .membre-equipe {
   border-radius: 10px;
-  background-color: rgba(173,216,230, 0.3);
+  background-color: rgb(212,236,226);
 }
 
 .membre-equipe img {

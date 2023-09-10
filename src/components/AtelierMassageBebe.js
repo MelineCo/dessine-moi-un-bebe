@@ -1,7 +1,7 @@
 export function AtelierMassageBebe(){
     return (
         <div className="detailsAtelier">
-            <h3>Atelier Massage Bébé</h3>
+            <h3>Massage Bébé</h3>
 
             <div className="descriptionAtelier">
                 <p>
@@ -56,6 +56,8 @@ export function AtelierMassageBebe(){
                         de quoi jouer, de quoi le faire goûter... tout ce dont vous pensez que votre bébé aura besoin, sans aucune restriction.
                     </li>
                 </ul>
+            </div>
+            <div className="inscriptions">
                 <button onClick={()=>{alert("Inscription enregistrée")}}>Je m'inscris !</button>
             </div>
         </div>

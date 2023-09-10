@@ -8,7 +8,7 @@ import { Equipe } from './components/Equipe';
 import { Ateliers } from './components/Ateliers';
 import Books, { booksLoader } from './components/categories-livre/Books';
 import { NotFound } from './components/NotFound';
-import BookDetails, { bookdetailsLoader } from './components/categories-livre/BookDetails';
+import { BookDetails, bookdetailsLoader } from './components/categories-livre/BookDetails';
 
 // Layouts
 import { RootLayout } from './layouts/RootLayout';

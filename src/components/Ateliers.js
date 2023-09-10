@@ -1,5 +1,6 @@
 import { AtelierCommunicationFamiliale } from "./AtelierCommunicationFamiliale";
 import { AtelierEveil } from "./AtelierEveil";
+import AtelierFrereSoeur from "./AtelierFrereSoeur";
 import { AtelierMassageBebe } from "./AtelierMassageBebe";
 
 export function Ateliers(){
@@ -12,6 +13,7 @@ export function Ateliers(){
             <div className="ateliersContainer">  
                 <AtelierEveil />
                 <AtelierCommunicationFamiliale />
+                <AtelierFrereSoeur />
                 <AtelierMassageBebe />
             </div>
         </div>
