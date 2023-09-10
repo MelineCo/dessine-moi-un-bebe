@@ -46,6 +46,25 @@ body {
   /*background-color: rgb(167,201,254);*/
 }
 
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.header h1 {
+  margin-left: 30px;
+  white-space: nowrap;
+}
+
 /* Bibliothèque */
 .illustration-bibli {
   height: 200px;
@@ -66,7 +85,7 @@ body {
   width: 25%;
 }
 
-/* Ateliers */
+/* Ateliers 
 
 .ateliersContainer{
   display: grid;
@@ -74,11 +93,18 @@ body {
   grid-gap: 10px;
   padding-left: 20px;
   padding-right: 20px;
+}*/
+
+.ateliersContainer{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .detailsAtelier{
   padding : 20px;
-  margin: 20px;
+  width: 250px;
+  height: 300px;
   border-radius: 10px;
   background-color: rgb(255,227,234);
   /*background-color: rgba(232,241,255);*/

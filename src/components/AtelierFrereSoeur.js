@@ -1,7 +1,7 @@
 export default function AtelierFrereSoeur(){
     return (
         <div className="detailsAtelier">
-            <h3>Frère Soeur sans jalousie ni rivalité</h3>
+            <h3>Frère Soeur sans jalousie <br/>ni rivalité</h3>
 
             <div className="descriptionAtelier">
                 <p>

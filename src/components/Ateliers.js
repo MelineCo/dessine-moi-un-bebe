@@ -8,7 +8,7 @@ export function Ateliers(){
         <div>
             <h2>Ateliers</h2>
             <p>
-                Le nombre de place est limité. Les inscriptions se font dans l'ordre d'arrivée des bulletins.
+                Le nombre de place est limité. <br />Les inscriptions se font dans l'ordre d'arrivée des bulletins.
             </p>
             <div className="ateliersContainer">  
                 <AtelierEveil />
