@@ -14,7 +14,8 @@ export function BookDetails() {
 }
 
 // loader function
-export const bookdetailsLoader = async ({ params }) => {
-    const res = await fetch(`http://localhost:4000/livres/${params.id}`)
+export const bookdetailsLoader = async () => {
+    let url= "http://localhost:4000/livres/1"
+    const res = await fetch(url)
     return res.json
 }

@@ -6,7 +6,6 @@ export default function Books(){
     return (
         <div>
             <h3>Livres</h3>
-
             <div className="books">
                 {books?.map(book => (
                     <Link to={book.id.toString()} key={book.id} >

@@ -5,7 +5,7 @@ import { createBrowserRouter, createRoutesFromElements, Outlet, Route, RouterPro
 // Pages
 import { Home } from './components/Home';
 import { Equipe } from './components/Equipe';
-import { Ateliers } from './components/Ateliers';
+import { Workshops, workshopLoader } from './components/Workshops';
 import Books, { booksLoader } from './components/categories-livre/Books';
 import { NotFound } from './components/NotFound';
 import { BookDetails, bookdetailsLoader } from './components/categories-livre/BookDetails';
@@ -13,11 +13,18 @@ import { BookDetails, bookdetailsLoader } from './components/categories-livre/Bo
 // Layouts
 import { RootLayout } from './layouts/RootLayout';
 import BooksLayout from './layouts/BooksLayout';
+import WorkshopsLayout from './layouts/WorkshopsLayout';
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={ <RootLayout /> }>
     <Route path='home' element={ <Home/> }/>
-    <Route path='ateliers' element={ <Ateliers/> }/>
+    <Route path='ateliers' element={ <WorkshopsLayout /> }>
+      <Route
+          index
+          element= { <Workshops /> }
+          loader= {workshopLoader}
+        />
+    </Route>
     <Route path='bibliotheque' element={ <BooksLayout /> }>
       <Route
         index

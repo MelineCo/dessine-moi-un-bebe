@@ -4,6 +4,7 @@
             "id":1,
             "theme": "grossesse",
             "titre": "Vivre son accouchement et sa grossesse",
+            "couverture": "https://m.media-amazon.com/images/I/812+rDxN97L.jpg",
             "description": "Conçu comme un guide de voyage, ce livre accompagne la future maman et son entourage durant la période de la grossesse et de la naissance."
         },
         {
@@ -40,7 +41,78 @@
             "titre": "L'enfant et la relaxation'",
             "couverture": "https://www.souffledor.fr/2260-single_prod_2x/enfant-et-la-relaxation-l-4e-edition.jpg", 
             "description": "L'enfant et la relaxation S'il te plaît, apprivoise-moi ! Chaque enfant est riche d'un monde intérieur que nous méconnaissons souvent, pris que nous sommes dans notre hâte. L'enfant lui-même est souvent perplexe et partagé entre son monde et celui des adultes ; il cherche des repères et son identité. Geneviève Manent nous propose de rencontrer l'enfant pour le révéler à lui-même grâce à la relaxation. À l'instar du renard et du Petit Prince, la relation entre l'adulte et l'enfant se tissera de patience, de confiance, de découverte mutuelle, au quotidien et révèlera des trésors. Ainsi, l'enfant pourra s'épanouir dans sa dimension globale et trouver l'harmonie tout au long de sa croissance ; il saura utiliser ses cinq sens, habitera intimement et avec bonheur son corps, se reliera plus facilement aux autres et à son environnement. En favorisant une connaissance de lui enracinée dans le corps, la relaxation l'aidera à avancer avec plus de conscience et de sécurité. Il pourra alors entrer sereinement dans le monde adulte. Au fil des chapitres vous sont proposés des réflexions, des relaxations à expérimenter, des éléments méthodologiques, des conseils techniques et des exercices pratiques, ainsi qu'une bibliographie adaptée. De nouvelles relaxations complètent cette édition revue et augmentée."
+        },
+        {
+            "id": 7,
+            "theme": "Relaxation",
+            "titre": "Exercices d'éveil pour petits chatons",
+            "couverture": "https://m.media-amazon.com/images/I/91U0rj9PR+L.jpg",
+            "description": "Dans nos sociétés hyper-tendues et stressées, il est important que les enfants prennent conscience de leurs tensions pour les dépasser à l'aide d'exercices corporels et mentaux relaxants. Chez soi ou à l'école, quelques minutes de ces exercices-jeux évitent bien des énervements. Ils apportent une meilleure écoute, une vraie concentration ainsi qu'une réelle harmonie générale. Pourquoi s'en priver?"
+        },
+        {
+            "id": 8,
+            "theme": "Loisirs créatifs",
+            "titre": "Intemporels pour bébés",
+            "couverture": "https://m.media-amazon.com/images/I/81RFBVW4fLL.jpg",
+            "description": "Bloomer, brassière, turbulette, béguin, chaussons, doudou, robe chasuble, pantalon bouffant, robe trapèze... C'est si mignon ! voici quelque 40 modèles qui vous permettront enfin de réaliser vous-même le trousseau intemporel de bébé. Grâce aux patrons en taille réelle, plus de problème d'échelle : reproduisez, découpez, cousez !"
+        },
+        {
+            "id": 9,
+            "theme": "Du côté des papas",
+            "titre": "Le vrai rôle du père",
+            "couverture": "https://m.media-amazon.com/images/I/61fUNGM4faL.jpg",
+            "description": "On a beaucoup parlé des 'nouveaux pères'. On a nettement moins cherché à savoir à quoi sert un père. Mais que sait-on aujourd'hui des effets de l'implication concrète des pères ? Que nous enseignent les études les plus sérieuses sur ce que doit être la contribution des deux sexes au bon développement d'un enfant ? Un livre qui devrait aider chaque homme à mieux vivre sa paternité et chaque femme à trouver le bon équilibre avec son enfant et son conjoint."
+        },
+        {
+            "id": 10,
+            "theme": "Du côté des papas",
+            "titre": "Être père, disent-ils",
+            "couverture": "https://m.media-amazon.com/images/I/71gtHCG8SYL.jpg",
+            "description": "Inattendus, sincères, vibrants, sept écrivains parlent pour la première fois de l'expérience la plus intime : être père. 'Je ne sais pas si je suis un bon père. J'essaie. J'essaie de toutes mes forces. Je t'indique des chemins, des sons, des couleurs, des mots, j'aimerais tant t'aider à devenir toi-même, tout simplement.' Philippe Claudel"
+        },
+        {
+            "id": 11,
+            "theme": "Du côté des papas",
+            "titre": "Petit éloge de la paternité",
+            "couverture": "https://m.media-amazon.com/images/I/81PW8ql85fL.jpg",
+            "description": "On ne naît pas père, on le devient, c'est le cercle de la naissance et de la renaissance perpétuelles en soi et hors de soi : si, comme il est devenu commun de le dire, l'on est toujours l'enfant de ses enfants, alors on naît aussi le père de son père"
+        },
+        {
+            "id": 12,
+            "theme": "Du côté des papas",
+            "titre": "Guide du jeune papa",
+            "couverture": "https://m.media-amazon.com/images/I/41wOD0BvRGL.jpg",
+            "description": "Un livre qui répond à toutes les questions qu'un futur père peut se poser, concernant l'enfant qui va naître, son couple, ce que vit la future mère pendant sa grossesse, l'accouchement et le séjour à la maternité, le retour à la maison. Ne trouvant pas de réponses à toutes les questions qu'il se posait, et pensant que l'avis d'autres pères pourrait lui être utile pour comprendre son nouveau rôle de père et se rassurer, l'auteur, Mikael Micucci, a eu l'idée de créer un site internet pour aider les hommes à aborder la paternité. Cet ouvrage est issu de son expérience."
+        },
+        {
+            "id": 13,
+            "theme": "Du côté des papas",
+            "titre": "Le père et son enfant",
+            "couverture": "https://m.media-amazon.com/images/I/515NWG4NKML.jpg",
+            "description": "Un père se sent toujours un peu désorienté par la naissance d'un bébé. Autant que la mère pourtant, il a un rôle primordial à jouer dans l'éducation d'un enfant. Le docteur Dodson, spécialiste mondial de l'éducation, donne ici des exemples simples et concrets qui aideront tous les papas à se comporter le mieux possible avec leur enfant, qu'il soit encore au berceau ou déjà adolescent."
+        },
+        {
+            "id": 14,
+            "theme": "Couple et sexualité",
+            "titre": "Femme désirée, femme désirante",
+            "couverture": "https://m.media-amazon.com/images/I/61d9FOS98HL.jpg",
+            "description": "Une majorité de femmes souffrent – souvent sans le savoir – de ne pas avoir la vie sexuelle qu’elles souhaitent : être à l’aise avec les sensations, pouvoir les ajuster à celles du partenaire, bénéficier ainsi des vertus reconstituantes du partage amoureux. Au croisement de la gynécologie, de la médecine chinoise, de la psychanalyse et de l’approche transgénérationnelle, le docteur Flaumenbaum, gynécologue et acupunctrice, s’appuie sur plus de trente ans d’expérience pour expliquer comment les femmes d’aujourd’hui construisent leur sexualité, la place qu’y tient la mère, pourquoi le plaisir ou même le désir sont si peu souvent au rendez-vous, et comment faire pour y remédier. Un livre qui devrait revigorer les hommes et dynamiser les femmes."
+        },
+        {
+            "id": 15,
+            "theme": "Couple et sexualité",
+            "titre": "Mamamélis: manuel de gynécologie naturopathique à l'usage des femmes",
+            "couverture": "https://m.media-amazon.com/images/I/611QxGTVPiL.jpg",
+            "description": "Règles douloureuses, cycles irréguliers, bouffées de chaleur, vaginites chroniques, fibromes... autant de maux pour lesquels la médecine moderne occidentale n'a d'autres réponses que la suppression des symptômes, voire l'ablation de l'organe. De plus en plus de femmes sont conscientes que ces méthodes, pour efficaces qu'elles soient sur le moment, ne résolvent pas toujours les problèmes, faute de faire un travail en profondeur au niveau du terrain. A l'image de l'auto-examen pratiqué par les femmes elles-mêmes à l'aide d'un miroir et d'une lampe de poche et du mouvement self-help qui en est né, ce manuel propose la réappropriation par les femmes de médecines douces, globales et efficaces. Mamamélis clarifiera pour chacune l'utilisation qui peut être faite des plantes, des oligo-éléments et d'autres remèdes naturels et soulignera l'importance de l'alimentation pour la santé des femmes et leur autonomie !"
+        },
+        {
+            "id": 16,
+            "theme": "Du côté des papas",
+            "titre": "Petit éloge de la paternité",
+            "couverture": "",
+            "description": ""
         }
+
     ],
     "equipe": [
         {
@@ -77,15 +149,15 @@
             "places": 10,
             "lieu": "Ventabren",
             "date": "10/08/2023",
-            "description": "lorem ipsum dolrgehkiuii"
+            "description": "5 séances de 1H30 pour découvrir le toucher sain et nourrissant comme outil de communication avec votre enfant."
         },
         {
             "id": 2,
-            "atelier": "Communication non violente",
+            "atelier": "Communication familiale",
             "places": 10,
             "lieu": "Eguilles",
             "date": "18/09/2023",
-            "description": "lorem ipsum dolrgehkiuii"
+            "description": "7 rencontres visant à améliorer la communication entre les parents et les enfants."
         },
         {
             "id": 3,
@@ -97,11 +169,19 @@
         },
         {
             "id": 4,
-            "atelier": "Yoga maman/bébé",
+            "atelier": "Éveil en famille",
             "places": 7,
             "lieu": "Lambesc",
             "date": "Tous les mardis à 10h",
-            "description": "lorem ipsum dolrgehkiuii"
+            "description": "Moments de partage entre le parent et l'enfant favorisant le lien d'attachement et la relation parent-enfant."
+        },
+        {
+            "id": 5,
+            "atelier": "Frère Soeur sans jalousie ni rivalité",
+            "places": 7,
+            "lieu": "Lambesc",
+            "date": "Tous les mardis à 10h",
+            "description": "Pour en finir avec les disputes, les chamailleries, les moqueries qui pèsent sur la vie familiale."
         }
     ] 
 }
