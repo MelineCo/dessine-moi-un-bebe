@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom"
 export default function BooksLayout(props){
     return (
         <div>
-            <h1>Bibliotheque</h1>
+            <h1>La bibliothèque</h1>
             <p>
                 Pour emprunter un livre (ou des livres), il convient d'etre adhérent à jour de sa cotisation
                 et de nous remettre un chèque de 40€ de caution non encaissé.<br />
