@@ -119,22 +119,19 @@ nav {
 /* Equipe */
 
 .membre-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
-  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .membre-equipe {
   border-radius: 10px;
-  background-color: rgb(212,236,226);
-}
-
-.membre-equipe img {
-  margin: 10px 10px;
+  
 }
 
 .membre-equipe p {
   padding: 20px;
   text-align: left;
+  width: 300px;
 }
