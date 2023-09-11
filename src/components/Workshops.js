@@ -16,7 +16,7 @@ export function Workshops(){
 }
 
 // loader function
-export const workshopLoader = async () => {
+export const workshopsLoader = async () => {
 	const res = await fetch('http://localhost:4000/ateliers')
 	return res.json()
 }

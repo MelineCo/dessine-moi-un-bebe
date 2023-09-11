@@ -42,10 +42,6 @@
   border-radius: 50%;
 }
 
-body {
-  /*background-color: rgb(167,201,254);*/
-}
-
 /* Header */
 
 .header {
@@ -79,6 +75,9 @@ nav {
   padding: 20px;
 }
 
+.book-cover {
+  width: 400px;
+}
 
 /* Ateliers 
 
@@ -111,6 +110,10 @@ nav {
 
 .informations {
   text-align: left;
+}
+
+.workshop-img {
+  width: 400px;
 }
 
 /* Equipe */

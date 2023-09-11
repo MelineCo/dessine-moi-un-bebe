@@ -1,5 +1,5 @@
 import React from 'react';
-import { MembreEquipe } from "./MembreEquipe";
+import { MembreEquipe } from "./MembreEquipe.js";
 import photoLaetitia from "../images/Laetitia.jpg";
 import photoAurore from "../images/Aurore.jpg";
 import photoSophie from "../images/Sophie.jpeg";

@@ -3,17 +3,19 @@ import React, { useState } from 'react';
 import { createBrowserRouter, createRoutesFromElements, Outlet, Route, RouterProvider } from 'react-router-dom';
 
 // Pages
-import { Home } from './components/Home';
-import { Equipe } from './components/Equipe';
-import { Workshops, workshopLoader } from './components/Workshops';
-import Books, { booksLoader } from './components/categories-livre/Books';
-import { NotFound } from './components/NotFound';
-import { BookDetails, bookdetailsLoader } from './components/categories-livre/BookDetails';
+import { Home } from './components/Home.js';
+import { Equipe } from './components/Equipe.js';
+import { Workshops, workshopsLoader } from './components/Workshops.js';
+import Books, { booksLoader } from './components/pages/Books.js';
+import { NotFound } from './components/NotFound.js';
+import { BookDetails, bookdetailsLoader } from './components/pages/BookDetails.js';
+import WorkshopDetails, { workshopDetailsLoader } from './components/WorkshopDetails.js';
 
 // Layouts
-import { RootLayout } from './layouts/RootLayout';
-import BooksLayout from './layouts/BooksLayout';
-import WorkshopsLayout from './layouts/WorkshopsLayout';
+import { RootLayout } from './layouts/RootLayout.js';
+import BooksLayout from './layouts/BooksLayout.js';
+import WorkshopsLayout from './layouts/WorkshopsLayout.js';
+
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={ <RootLayout /> }>
@@ -22,7 +24,12 @@ const router = createBrowserRouter(createRoutesFromElements(
       <Route
           index
           element= { <Workshops /> }
-          loader= {workshopLoader}
+          loader= {workshopsLoader}
+        />
+        <Route
+          path=":id"
+          element= { <WorkshopDetails /> }
+          loader= {workshopDetailsLoader}
         />
     </Route>
     <Route path='bibliotheque' element={ <BooksLayout /> }>
@@ -31,12 +38,12 @@ const router = createBrowserRouter(createRoutesFromElements(
         element= { <Books /> }
         loader= {booksLoader}
       />
-      <Route
-        path=":id"
+    </Route>
+    <Route
+        path="bibliotheque/:id"
         element= { <BookDetails /> }
         loader= {bookdetailsLoader}
       />
-    </Route>
     <Route path='equipe' element={ <Equipe /> }/>
     <Route path='*' element={ <NotFound /> }/>
   </Route>
