@@ -93,12 +93,36 @@ nav {
 }
 
 .detailsAtelier{
+  align-self: center;
   padding : 20px;
-  width: 250px;
-  height: 300px;
+  width: 600px;
   border-radius: 10px;
   background-color: rgb(255,227,234);
-  /*background-color: rgba(232,241,255);*/
+}
+
+
+.workshop-body {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.inscription-box{
+  align-self: flex-end;
+  background-color: rgb(255,227,234);
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
+.inscription-box button{
+  background-color: pink;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  margin: 7px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #6d0133;
 }
 
 .quantity {
@@ -111,7 +135,7 @@ nav {
 }
 
 .small {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .descriptionAtelier {
@@ -123,7 +147,12 @@ nav {
 }
 
 .workshop-img {
-  width: 400px;
+  height: 250px;
+}
+
+.carrousel-workshop {
+  display: flex;
+
 }
 
 /* Equipe */

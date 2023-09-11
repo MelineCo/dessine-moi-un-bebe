@@ -185,9 +185,11 @@
             "id": 5,
             "atelier": "Frère Soeur sans jalousie ni rivalité",
             "places": 7,
-            "lieu": "Lambesc",
+            "ville": "La Fare les oliviers",
+            "lieu": "École Montessori La Souris Verte",
             "date": "Tous les mardis à 10h",
-            "tarif": 85,
+            "tarif": 10,
+            "photo": "https://p1.storage.canalblog.com/14/25/460901/121204767.jpg",
             "description": "Pour en finir avec les disputes, les chamailleries, les moqueries qui pèsent sur la vie familiale."
         }
     ] 

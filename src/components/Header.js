@@ -20,7 +20,6 @@ export function Header(){
                     <NavLink style={navlinkStyle} to="/equipe">QUI SOMMES NOUS ?</NavLink>
             </nav>
         </div>
-        <img src={illuBebe} alt="bebes" />
         </>
     );
 }

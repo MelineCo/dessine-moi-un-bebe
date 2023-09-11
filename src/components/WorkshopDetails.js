@@ -14,37 +14,43 @@ export default function WorkshopDetails(){
 
     const workshop = useLoaderData();
     return (
-        <>
-        <img className="workshop-img" src={workshop.photo} alt={workshop.atelier}></img>
-        <div className="workshop-details">
-            <h2>{JSON.stringify(workshop.atelier)}</h2>
-            <p>{JSON.stringify(workshop.description)}</p>
-        </div>
-        <div className="compteur">
-            <p>Je réserve </p>
-            <button onClick={decrementCount}>-</button>
-            <span className="quantity">{count}</span>
-            <button onClick={incrementCount}>+</button>
-            <p> places.</p>
-        </div>
-        <div className="inscription-box">
-            <p className="tarif-atelier">{JSON.stringify(workshop.tarif)} € <span className="small">pour les adhérents</span></p>
-            <button>Réserver un créneau</button>
-            <button>Offrir l'atelier</button>
-        </div>
+        <div className="workshop">
+            <div className="workshop-header">
+                <h2>{JSON.stringify(workshop.atelier)}</h2>
+                <p>{JSON.stringify(workshop.ville)}</p>
+            </div>
 
-        <div className="lieu">
-            <h3>Lieu de l'atelier</h3>
-            <p>{JSON.stringify(workshop.lieu)}</p>
-            
-        </div>
+            <div className="carrousel-workshop">
+                <img className="workshop-img" src="https://images.unsplash.com/photo-1554343594-1c9d305bd51f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2659&q=80" alt={workshop.atelier}></img>
+                <img className="workshop-img" src="https://images.unsplash.com/photo-1554344462-4d4ef7ecabc1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80" alt={workshop.atelier}></img>
+                <img className="workshop-img" src="https://images.theconversation.com/files/523939/original/file-20230502-26-1a8jnc.jpg?ixlib=rb-1.1.0&rect=0%2C214%2C3175%2C1587&q=45&auto=format&w=668&h=324&fit=crop" alt={workshop.atelier}></img>
+                <img className="workshop-img" src="https://images.ctfassets.net/zkw0qlnf0vqv/psycom_page_fid37970_1_asset/4fb136e4c6ea46cb460f08ac5642f77c/toddler-blue-phone?fm=webp&fit=thumb&q=65&w=320&h=320" alt={workshop.atelier}></img>
+            </div>
 
-        <div className="infos-complementaires">
-            <h3>Informations complémentaires</h3>
-            <p>{JSON.stringify(workshop.infoscomplementaires)}</p>
+            <div className="workshop-body">
+                <div className="detailsAtelier">
+                    <div className="workshop-desc">
+                        <p>{JSON.stringify(workshop.description)}</p>
+                    </div>
+                    <div className="lieu">
+                        <h3>Lieu de l'atelier</h3>
+                        <p>{JSON.stringify(workshop.lieu)}</p>  
+                    </div>
+
+                    <div className="infos-complementaires">
+                        <h3>Informations complémentaires</h3>
+                        <p>{JSON.stringify(workshop.infoscomplementaires)}</p>
+                    </div>
+                </div>
+                <div className="inscription-box">
+                    <p>Places restantes : {JSON.stringify(workshop.places)}</p>
+                    <p className="tarif-atelier">{JSON.stringify(workshop.tarif)} € <span className="small">pour les adhérents</span></p>
+                    <button>Réserver un créneau</button><br/>
+                    <button>Offrir l'atelier</button>
+                </div>
+            </div>
+        
         </div>
-        <YouMightAlsoLike />
-        </>
     );
 }
 
