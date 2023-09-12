@@ -13,7 +13,7 @@ export function Header(){
     return (
         <>
         <div className="header">
-            <h1>Dessine-moi un bébé</h1>
+            <h1>Dessine-moi un bebe</h1>
             <nav id="menu">
                     <NavLink style={navlinkStyle} to="/ateliers">Nos ateliers</NavLink>
                     <NavLink style ={navlinkStyle} to="/rendezvous">Nos rencontres</NavLink>

@@ -11,7 +11,7 @@ export function Workshops(){
         <div className="ateliersContainer">  
             {workshops?.map(workshop => (
                         <Link style={{textDecoration: 'none'}} className="vignette-atelier" to={workshop.id.toString()} key={workshop.id} >
-                            <img style={{width: 250, height: 180}} src={workshop.photo} alt={workshop.atelier}></img>
+                            <img style={{width: 260, height: 180}} src={workshop.photo} alt={workshop.atelier}></img>
                             <h2>{workshop.atelier}</h2>
                             <p>{workshop.description}</p>
                             <p className="tarif">{workshop.tarif} €</p>
