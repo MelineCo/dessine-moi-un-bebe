@@ -146,51 +146,60 @@
         {
             "id": 1,
             "atelier": "Massage bébé",
+            "theme": "Relaxation",
             "places": 10,
             "lieu": "Centre de loisirs de Ventabren",
             "date": "10/08/2023",
-            "photo": "https://static.wixstatic.com/media/f69878_34574f7c48e84211832d86cb002fcafe~mv2.jpg/v1/fill/w_728,h_816,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/_MG_5725%20copie_edited_edited.jpg",
+            "photo": "https://www.pepitesdamour.com/wp-content/uploads/2018/08/Bebe_Massage_Corps_%C2%A9_Dmitry_Naumov.jpg",
             "tarif": 70,
-            "description": "5 séances de 1H30 pour découvrir le toucher sain et nourrissant comme outil de communication avec votre enfant.",
+            "description": "Pour découvrir le massage parent-bébé comme outil de communication",
             "infoscomplementaires": "L'huile de massage, ainsi qu'un document récapitulatif du massage sont offerts. Prévoir : - Pour vous : une tenue confortable (nous serons assis par terre) - Pour votre bébé : une  serviette en coton, type serviette de toilette (les tapis de massage sont prévus sur place), de quoi le changer (le massage des jambes et du ventre génère très souvent des pipis...), de quoi jouer, de quoi le faire goûter... tout ce dont vous pensez que votre bébé aura besoin, sans aucune restriction."
         },
         {
             "id": 2,
             "atelier": "Communication familiale",
+            "theme": "Communication",
             "places": 10,
+            "ville": "Ventabren",
             "lieu": "Eguilles",
             "date": "18/09/2023",
+            "photo": "https://lesprosdelapetiteenfance.fr/sites/default/files/dialogue_enfant_adulte_0.jpg",
             "tarif": 85,
-            "description": "7 rencontres visant à améliorer la communication entre les parents et les enfants."
+            "description": "Pour améliorer la communication entre les parents et les enfants"
         },
         {
             "id": 3,
             "atelier": "Baby gym",
+            "theme": "Motricité",
             "places": 30,
             "lieu": "Gymnase de Ventabren",
             "date": "Tous les 1er vendredi du mois",
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSTruhyfdgaEvfbd0BDxMoUUat5xGDuKkatg&usqp=CAU",
             "tarif": 5,
-            "description": "lorem ipsum dolrgehkiuii"
+            "description": "Découvrir ses capacités motrices, les développer et prendre confiance en soi"
         },
         {
             "id": 4,
             "atelier": "Éveil en famille",
+            "theme": "Motricité",
             "places": 7,
             "lieu": "Lambesc",
             "date": "Tous les mardis à 10h",
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFF0k0XJr26dKvLVTxFw2s6UTpj42ycMiVxA&usqp=CAU",
             "tarif": 85,
-            "description": "Moments de partage entre le parent et l'enfant favorisant le lien d'attachement et la relation parent-enfant."
+            "description": "Moments de partage favorisant le lien d'attachement"
         },
         {
             "id": 5,
-            "atelier": "Frère Soeur sans jalousie ni rivalité",
+            "atelier": "Relation Frère & Soeur",
+            "theme": "Communication",
             "places": 7,
             "ville": "La Fare les oliviers",
             "lieu": "École Montessori La Souris Verte",
             "date": "Tous les mardis à 10h",
             "tarif": 10,
-            "photo": "https://p1.storage.canalblog.com/14/25/460901/121204767.jpg",
-            "description": "Pour en finir avec les disputes, les chamailleries, les moqueries qui pèsent sur la vie familiale."
+            "photo": "https://img.freepik.com/photos-premium/frere-soeur-promenade-garcon-plus-age-jeune-fille-se-promenent-ensemble-dans-parc-automne_632557-3238.jpg?w=1800",
+            "description": "Fini la jalousie, la rivalité et les chamailleries qui pèsent sur la vie familiale"
         }
     ] 
 }

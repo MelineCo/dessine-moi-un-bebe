@@ -3,9 +3,9 @@ import illuBebe from "../images/Dessine-moi-des-bebes-2.png";
 
 const navlinkStyle = ({isActive}) => {
     return {
-        fontWeight: isActive? 'bold': 'normal',
+        fontWeight: 400,
         textDecoration: 'none',
-        textTransform: 'uppercase'
+        fontSize: 18
     }
 }
 
