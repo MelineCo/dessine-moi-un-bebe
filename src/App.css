@@ -42,6 +42,12 @@
   border-radius: 50%;
 }
 
+/* Body */
+
+body {
+  background-color: rgb(244,241,239);
+}
+
 /* Header */
 
 .header {
@@ -91,12 +97,21 @@ nav {
 .vignette-atelier{
   width: 250px;
   margin-bottom: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   border: 0.5px solid rgba(25, 25, 25, 0.3);
   border-radius: 15px;
+  background-color: white;
 }
 
 .vignette-atelier h2 {
+  padding-left : 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: left;
+  color: rgb(139, 176, 232)
+}
+
+/*.vignette-atelier h2 {
   display: inline-block;
   background-color: rgb(255,227,234, 0.7);
   background-size: contain;
@@ -105,12 +120,13 @@ nav {
   font-size: 14px;
   text-align: left;
   color: #CF4973;
-}
+}*/
 
 .vignette-atelier p {
   padding : 10px 20px 10px 20px;
   text-align: left;
   margin: 0;
+  color: rgb(31,31,31);
 }
 
 .vignette-atelier img {
@@ -119,8 +135,14 @@ nav {
 }
 
 .vignette-atelier .tarif {
-  color: black;
+  color: rgb(31,31,31);
   font-size: 20px;
+  font-weight: bold;
+}
+
+.vignette-atelier .localisation {
+  color: #949494;
+  font-size: 13px;
 }
 
 .vignette-atelier button{

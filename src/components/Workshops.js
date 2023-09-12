@@ -1,4 +1,9 @@
 import { useLoaderData, Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot, faClock } from '@fortawesome/free-solid-svg-icons'
+
+const locationDot = <FontAwesomeIcon icon={faLocationDot} />
+const clockIcon = <FontAwesomeIcon icon={faClock} />
 
 export function Workshops(){
     const workshops = useLoaderData();
@@ -10,6 +15,7 @@ export function Workshops(){
                             <h2>{workshop.atelier}</h2>
                             <p>{workshop.description}</p>
                             <p className="tarif">{workshop.tarif} €</p>
+                            <p className="localisation">{clockIcon} {workshop.seances} | {locationDot}  {workshop.ville}</p>
                         </Link>
             ))}
 		</div>
