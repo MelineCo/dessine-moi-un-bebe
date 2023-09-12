@@ -16,6 +16,7 @@ import { RootLayout } from './layouts/RootLayout.js';
 import BooksLayout from './layouts/BooksLayout.js';
 import WorkshopsLayout from './layouts/WorkshopsLayout.js';
 import TeamLayout from './layouts/TeamLayout.js';
+import MeetUpLayout from './layouts/MeetUpLayout.js';
 
 
 const router = createBrowserRouter(createRoutesFromElements(
@@ -33,6 +34,7 @@ const router = createBrowserRouter(createRoutesFromElements(
           loader= {workshopDetailsLoader}
         />
     </Route>
+    <Route path='rendezvous' element={ <MeetUpLayout />} />
     <Route path='bibliotheque' element={ <BooksLayout /> }>
       <Route
         index

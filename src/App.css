@@ -93,11 +93,9 @@ nav {
 }
 
 .detailsAtelier{
-  align-self: center;
   padding : 20px;
   width: 600px;
-  border-radius: 10px;
-  background-color: rgb(255,227,234);
+  text-align: left;
 }
 
 
