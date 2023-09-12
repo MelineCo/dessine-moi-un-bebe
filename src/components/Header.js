@@ -1,5 +1,4 @@
-import { NavLink } from "react-router-dom";
-import illuBebe from "../images/Dessine-moi-des-bebes-2.png";
+import { NavLink, Link } from "react-router-dom";
 
 const navlinkStyle = ({isActive}) => {
     return {
@@ -13,7 +12,7 @@ export function Header(){
     return (
         <>
         <div className="header">
-            <h1>Dessine-moi un bebe</h1>
+            <Link to="home" style={{textDecoration: 'none', color: 'black'}} ><h1>Dessine-moi un bebe</h1></Link>
             <nav id="menu">
                     <NavLink style={navlinkStyle} to="/ateliers">Nos ateliers</NavLink>
                     <NavLink style ={navlinkStyle} to="/rendezvous">Nos rencontres</NavLink>

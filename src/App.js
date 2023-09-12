@@ -21,7 +21,13 @@ import MeetUpLayout from './layouts/MeetUpLayout.js';
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={ <RootLayout /> }>
-    <Route path='home' element={ <Home/> }/>
+    <Route path='home' element={ <Home/> }>
+      <Route
+          index
+          element= { <Workshops /> }
+          loader= {workshopsLoader}
+        />
+    </Route>
     <Route path='ateliers' element={ <WorkshopsLayout /> }>
       <Route
           index
